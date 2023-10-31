@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="Css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Form </title>
+   </head>
+   <body>
+    <header>
+      <h1>Sameep</h1>
+    </header>
+    <main>
+      <section>
+      <form action="#" method="get" class="two-column-layout">
+         <label> First Name:</label>   
+         <input type="text" name="firstname" placeholder= "First Name"  required> 
+         <label for="email"> Email:</label>  
+         <input type= "email" name="email" id="email" placeholder="Email ID"  required>                
+         <label for="tel">Phone Number</label>
+         <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 000-000-0000" required/>
+         <label for="Address"> Address:</label>
+         <textarea name="address" id="address" placeholder="type your address here"></textarea>
+         <label>Radiobox</label>
+         <div class="radiobox">
+         <input type="radio" id="yes" name="agreement" value="yes">
+         <label for="yes">Yes</label>
+         <input type="radio" id="no" name="agreement" value="no">
+         <label for="no">No</label>
+         </div>
+         <button type="submit">Submit</button>
+      </form>
+      </section>
+      </main>
+      <footer>
+         <p>Copyright 2023 by Sameep Pradeep</p>
+      </footer>
+   </body>
+</html>
