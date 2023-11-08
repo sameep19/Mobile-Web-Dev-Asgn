@@ -8,35 +8,23 @@ Date - 2023/11/07
 
 
 header h1{
-    font-size: 2em;
+    font-size: 20px;
     text-align: center;
     }
     h1{
-    font-size: 5em;
+    font-size: 15px;
     }
     h2{
-    text-align: 10%;
-    font-size: 2em;
-    }
-    .input-container {
-    display: flex;
-    margin-bottom: 2
-    0px;
+    font-size: 20px;
     }
     form {
     max-width: 500px;
     width: 55%;
     margin: 10px;
-    background-color: #ffffff;
+    background-color: #df1818;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 5px 0 10px rgba(37, 6, 6, 0.1);
-    }
-    .container {
-    display: flex;
-    justify-content: space-between;
-    }
-    label{
+    }    label{
     font-size: 1.5em;
     }
     input {
@@ -53,20 +41,18 @@ header h1{
     flex: 1;
     margin: 10px;
     padding: 20px;
-    background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 5px 0 10px rgba(37, 6, 6, 0.1);
     }
     .swiper-container {
-    width: 50%;
+    width: 70%;
     margin: 0;
     }
     .swiper-slide {
-    text-align: center;
+    
     padding: 20px;
-    background-color: #f1f1f1;
-    border: 1px solid #ddd;
-    width: 53%;
+    border: 1px;
+    text-align: center;
+    width: 70%;
     }
 button[type="submit"] {
     background-color: rgb(197, 84, 84);
@@ -78,11 +64,11 @@ button[type="submit"] {
     font-size: 16px; 
         }
     input, select, textarea {
-    width: 40%; 
-    padding: 10px;
-    margin-bottom: 5px;
-    border: 1px solid #ff0909;
-    border-radius: 8px;
+    width: 50%;
+    margin-bottom: 7px; 
+    padding: 15px;
+    border: 2px solid #ff09ea;
+    border-radius: 12px;
     }
     @media only screen and (min-width: 601px){
     body{
