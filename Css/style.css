@@ -1,0 +1,97 @@
+/* 
+Name - Sameep Pradeep 
+StudentID - #0822247 
+Assignment - #7
+Date - 2023/11/07
+*/
+/********************************* 
+1) Body Styles 
+2) Footer Styles 
+3) Tablet Screen Styles 
+4) Mobile Screen Styles 
+*********************************/
+/* Body Styles*/
+form{
+    width: 75%;
+    margin: 15px auto;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 2px;
+    }
+    h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    padding-top: 10px;
+    }
+    section{
+    margin: auto;
+    }
+    label{
+    font-size: 40px;
+    }
+    .two-column-layout {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(2,1fr)
+    }
+    input,textarea{
+    padding: 10px;
+    margin: 10px 0;
+    }
+    button[type="submit"] {
+    background-color: rgb(154, 10, 10);
+    color: rgb(173, 168, 168);
+    font-size: 20px;
+    width: 20%;
+    align-self: center;
+    }
+    /*2) Footer Style*/
+    footer{
+    background-color: orange;
+    font-size: 10px;
+    color: purple;
+    text-align: center;
+    }
+    /*3) Tablet Screen Display*/
+    @media only screen and (min-width: 601px){
+    body{
+    background-color:rgb(16, 158, 230);
+    }
+    button[type="submit"] {
+    background-color: rgb(154, 10, 10);
+    color: rgb(173, 168, 168);
+    font-size: 20px;
+    width: 50%;
+    }
+    }
+    /*4) Mobile Screen Display*/
+    @media only screen and (max-width: 600px) {
+    body {
+    background-color: rgb(250, 4, 213);
+    }
+    h1 {
+    font-size: 40px;
+    }
+    label{
+    font-size: 50px;
+    }
+    .two-column-layout {
+    display: block;
+    }
+    input {
+    padding: 9px;
+    border-radius: 5px;
+    width: 100%;
+    }
+    textarea{
+    width: 90%;
+    }
+    button[type="submit"] {
+    align-self: center;
+    color: rgb(4, 178, 253);
+    font-size: 20px;
+    width: 25%;
+    margin-top:10%;
+    }
+    }

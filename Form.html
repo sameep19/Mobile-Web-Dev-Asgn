@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="Css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Assignment 7 </title>
+   </head>
+   <body>
+      <header>
+         <h1>Sameep</h1>
+      </header>
+      <main>
+         <section>
+            <!-- Step 1-->
+            <form action="#" method="get" class="two-column-layout">
+               <label> Name of School:</label>   
+               <input type="text" name="schoolName" placeholder= "School Name"  required>                 
+               <label for="dateOfJoining">Date of Joining:</label>
+               <input type="date" id="dateOfJoining" name="dateOfJoining" required>
+               <label>Graduated</label>
+               <div class="radiobox">
+                  <input type="radio" id="yes" name="agreement" value="yes">
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="agreement" value="no">
+                  <label for="no">No</label>
+               </div>
+            </form>
+         </section>
+         <section>
+            <!-- Step 2-->
+            <form action="#" method="get" class="two-column-layout"> 
+               <label for="email"> Email:</label>  
+               <input type= "email" name="email" id="email" placeholder="Email ID"  required>                
+               <label for="tel">Phone Number:</label>
+               <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 000-000-0000" oninvalid="this.setCustomValidity('Please enter a valid phone number (e.g., 123-456-7890)')"
+                  oninput="this.setCustomValidity('')"required/>
+               <label for="CanadaZipCode">ZipCode:</label>
+               <input type="text" id="CanadaZipCode" name="CanadaZipCode" placeholder="N1A-1P1" required pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d"
+                  oninvalid="setCustomValidity('Please enter a valid Canada zip code (e.g., N9B 1Y8)')"
+                  oninput="setCustomValidity('')"required/>
+            </form>
+         </section>
+         <section>
+            <!-- Step 3-->
+            <form action="#" method="get" class="two-column-layout">               
+               <label for="tel">Credit Card Number:</label>
+               <input type="text" id="creditCard" name="creditCard" data-validate="required creditCard">
+               <label for="tel">Expiration Date:</label>
+               <input type="date" id="expirationDate" name="expirationDate" required/>
+               <label for="tel">CVV:</label>
+               <input type="text" id="cvv" name="cvv" data-validate="required cvv"required/>
+            </form>
+         </section>
+         <div><input type="submit" value="Submit" ></div>
+      </main>
+      <footer>
+         <p>Copyright 2023 by Sameep Pradeep</p>
+      </footer>
+   </body>
+</html>
