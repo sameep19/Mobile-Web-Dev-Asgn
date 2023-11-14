@@ -1,0 +1,50 @@
+/**********************************
+Author: Sameep Pradeep
+Student ID: 0822247     
+Assignment #08
+Date: 2023/11/14
+**********************************/
+
+
+
+
+body {
+    background-color: rgba(234, 225, 214, 0.85)!important;
+}
+
+p {
+line-height: 1.5;
+font-size: 1.5em;
+}
+
+footer {
+    height:48px;  
+    background-color: rgba(12, 227, 235, 0.845)
+}
+
+footer p {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(232, 248, 7);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4px 0px;
+}
+
+/* Mobile Display */
+@media screen and (max-width: 600px) {
+    body{
+    background-color: rgb(255, 0, 0) !important;
+    }
+    }
+/* Tablet Display */
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+    body{
+    background-color: rgb(140, 52, 87) !important;
+    }
+    }
+/* Desktop Display */
+    @media screen and (min-width: 1025px) {
+    body{
+    background-color: rgb(250, 172, 224) !important;
+    }
+    }
