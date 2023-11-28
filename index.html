@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment 10</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <header>
+         <h1>
+            Sameep Pradeep
+         </h1>
+      </header>
+      <div class="container order-sm-10 mt-5">
+      <div class="row pt-3 bg-light">
+         <div class="col-lg-12">
+            <h2 class="text-danger">Electric Jet</h2>
+            <figure class="text-center">
+               <img src="OIP.jfif" alt="Figure" class="img-fluid rounded-circle">
+               <figcaption>Introducing the first electric vertical take-off and landing jet</figcaption>
+            </figure>
+         </div>
+      </div>
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">#</th>
+               <th scope="col">Product Name</th>
+               <th scope="col">Price</th>
+               <th scope="col">Quantity</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <th scope="row">1</th>
+               <td>CR-7</td>
+               <td>$10 Million</td>
+               <td>10</td>
+            </tr>
+            <tr>
+               <th scope="row">2</th>
+               <td>SP-19</td>
+               <td>$100 Million</td>
+               <td>1</td>
+            </tr>
+            <th scope="row">3</th>
+            <td>LM-10</td>
+            <td>$50 Million</td>
+            <td>5</td>
+            </tr>
+         </tbody>
+      </table>
+      <div class="row mt-3">
+         <div class="col-md-6 order-md-2">
+            <h2 class="text-danger">Form</h2>
+            <form class="bg-secondary p-2">
+               <div class="mb-3">
+                  <label for="name" class="form-label">Product Category</label>
+                  <select class="form-select" size="3" aria-label="Size 3 select example">
+                     <option selected>Pick</option>
+                     <option value="1">CR-7</option>
+                     <option value="2">SP-19</option>
+                     <option value="3">LM-10</option>
+                  </select>
+               </div>
+               <div class="mb-3">
+                  <label for="price" class="form-label">Would You Like To Order?</label>
+                  <input type="price" class="form-control" id="price" placeholder="Price">
+               </div>
+               <div class="mb-3">
+                  <label for="Quantity" class="form-label">Quantity</label>
+                  <input type="range" class="form-range quantity-slider" id="Quantity" min="1" max="10" value="1">
+                  <div class="text-center mt-2">
+                     <span id="quantity-value">1 to 10</span>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
